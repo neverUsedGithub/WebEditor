@@ -9,6 +9,7 @@ export default defineConfig({
     headers: {
       "Cross-Origin-Embedder-Policy": "require-corp",
       "Cross-Origin-Opener-Policy": "same-origin"
-    }
+    },
+    port: parseInt(import.meta.env.PORT)
   }
 })
